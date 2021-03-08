@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="500c2d10-dec4-43aa-8135-818f10cdbc71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/production/admin_suit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/adminSuit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/adminSuit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/custom.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pSqDbhUPrZKdYk11KaAklpHHxb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="500c2d10-dec4-43aa-8135-818f10cdbc71" name="Default Changelist" comment="" />
+      <created>1615186721203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615186721203</updated>
+      <workItem from="1615186722384" duration="15085000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2339" y="65" width="602" height="490" key="find.popup" timestamp="1615204829414">
+      <screen x="1680" y="-230" width="1920" height="1080" />
+    </state>
+    <state x="2339" y="65" width="602" height="490" key="find.popup/0.0.1680.1050/1680.-230.1920.1080@1680.-230.1920.1080" timestamp="1615204829414" />
+  </component>
+</project>

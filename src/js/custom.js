@@ -30,6 +30,7 @@ function init_sidebar() {
         contentHeight -= $NAV_MENU.height() + footerHeight;
 
         $RIGHT_COL.css('min-height', contentHeight);
+
     };
 
     var openUpMenu = function () {
@@ -256,3 +257,6 @@ if (typeof NProgress != 'undefined') {
         NProgress.done();
     });
 }
+
+
+console.log('hello')

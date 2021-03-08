@@ -33,6 +33,22 @@
     jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
 
 })(jQuery,'smartresize');
+$(".fixed-menu button.dropdown-toggle").on("click", function (event) {
+    $(this).parent().toggleClass("open");
+    $(".menu").toggleClass("open");
+    console.log("clicked")
+});
+
+$("body").on("click", function (e) {
+    if (!$('li.dropdown.mega-dropdown').is(e.target)
+        && $('li.dropdown.mega-dropdown').has(e.target).length === 0
+        && $('.open').has(e.target).length === 0
+    ) {
+        $('.fixed-menu ').removeClass('open');
+        $('.menu ').removeClass('open');
+    }
+});
+
 /**
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -65,6 +81,7 @@ function init_sidebar() {
         contentHeight -= $NAV_MENU.height() + footerHeight;
 
         $RIGHT_COL.css('min-height', contentHeight);
+
     };
 
     var openUpMenu = function () {
@@ -292,6 +309,8 @@ if (typeof NProgress != 'undefined') {
     });
 }
 
+
+console.log('hello')
 
 //hover and retain popover when on popover content
 var originalLeave = $.fn.popover.Constructor.prototype.leave;
