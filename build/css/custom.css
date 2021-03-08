@@ -1,3 +1,9 @@
+.fixed-menu.lv-search-filter__button {
+  width: 20%; }
+  .fixed-menu.lv-search-filter__button button {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%; }
 .fixed-menu .menu {
   display: none; }
 .fixed-menu.open .menu.open {
@@ -11,8 +17,9 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  margin-bottom: 20px;
   height: calc(1.5em + .75rem + 2px);
-  padding: .375rem 1.75rem .375rem .75rem;
+  padding: .375rem 0 .375rem .75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -55,7 +62,8 @@
             flex: 1 0 auto;
     border: none;
     outline: none;
-    background: none; }
+    background: none;
+    width: 80%; }
 
 .right_col {
   min-height: 100vh;
@@ -4913,6 +4921,12 @@ ul.notifications {
   border: 1px solid #e5e5e5; }
 
 /** /Dropzone.js **/
+.fixed-menu.lv-search-filter__button {
+  width: 20%; }
+  .fixed-menu.lv-search-filter__button button {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%; }
 .fixed-menu .menu {
   display: none; }
 .fixed-menu.open .menu.open {
@@ -4926,8 +4940,9 @@ ul.notifications {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  margin-bottom: 20px;
   height: calc(1.5em + .75rem + 2px);
-  padding: .375rem 1.75rem .375rem .75rem;
+  padding: .375rem 0 .375rem .75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -4970,7 +4985,8 @@ ul.notifications {
             flex: 1 0 auto;
     border: none;
     outline: none;
-    background: none; }
+    background: none;
+    width: 80%; }
 
 .right_col {
   min-height: 100vh;

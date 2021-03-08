@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="500c2d10-dec4-43aa-8135-818f10cdbc71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/production/admin_suit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/adminSuit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/adminSuit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/custom.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/admin_suit.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/admin_suit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/adminSuit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/adminSuit.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615186721203</updated>
-      <workItem from="1615186722384" duration="15085000" />
+      <workItem from="1615186722384" duration="21132000" />
     </task>
     <servers />
   </component>
