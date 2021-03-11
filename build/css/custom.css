@@ -2,8 +2,10 @@
   width: 50px;
   height: 35px; }
 .fixed-menu .menu {
-  display: none; }
-.fixed-menu.open .menu.open {
+  display: none;
+  padding: 15px;
+  width: 100%; }
+.fixed-menu.open .menu {
   display: block; }
 
 .search-form {
@@ -47,6 +49,7 @@
       width: -webkit-fit-content;
       width: -moz-fit-content;
       width: fit-content;
+      white-space: nowrap;
       color: #fff;
       background-color: rgba(52, 73, 94, 0.94);
       padding: 0 5px;
@@ -63,7 +66,7 @@
     border: none;
     outline: none;
     background: none;
-    width: 80%; }
+    width: 70%; }
 
 .right_col {
   min-height: 100vh;
@@ -85,8 +88,23 @@
     .table-btn--actions .fixed-menu button:focus {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
+.search-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .search-wrapper .search-wrapper__input {
+    width: 80%; }
+  .search-wrapper .search-wrapper__filters {
+    width: 20%; }
 
-@charset "UTF-8";
+.filter-form__select {
+  width: 100% !important;
+  margin-bottom: 8px !important; }
+
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot");
@@ -4942,8 +4960,10 @@ ul.notifications {
   width: 50px;
   height: 35px; }
 .fixed-menu .menu {
-  display: none; }
-.fixed-menu.open .menu.open {
+  display: none;
+  padding: 15px;
+  width: 100%; }
+.fixed-menu.open .menu {
   display: block; }
 
 .search-form {
@@ -4987,6 +5007,7 @@ ul.notifications {
       width: -webkit-fit-content;
       width: -moz-fit-content;
       width: fit-content;
+      white-space: nowrap;
       color: #fff;
       background-color: rgba(52, 73, 94, 0.94);
       padding: 0 5px;
@@ -5003,7 +5024,7 @@ ul.notifications {
     border: none;
     outline: none;
     background: none;
-    width: 80%; }
+    width: 70%; }
 
 .right_col {
   min-height: 100vh;
@@ -5025,6 +5046,22 @@ ul.notifications {
     .table-btn--actions .fixed-menu button:focus {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
+.search-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .search-wrapper .search-wrapper__input {
+    width: 80%; }
+  .search-wrapper .search-wrapper__filters {
+    width: 20%; }
+
+.filter-form__select {
+  width: 100% !important;
+  margin-bottom: 8px !important; }
 
 .daterangepicker .ranges li {
   color: #73879C; }

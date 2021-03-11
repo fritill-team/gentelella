@@ -5,14 +5,16 @@
       height: 35px;
     }
   }
-  .menu{
+
+  .menu {
     display: none;
+    padding: 15px;
+    width: 100%;
   }
-  &.open{
-    .menu{
-      &.open{
-        display: block;
-      }
+
+  &.open {
+    .menu {
+      display: block;
     }
   }
 }
@@ -31,40 +33,45 @@
   line-height: 1.5;
   color: #495057;
   border: 1px solid #ced4da;
-  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   background-color: #fff;
   margin-right: 20px;
   &:focus-within{
     outline: rgba(52,73,94,0.94);
   }
+
   .lv-search-filters__filters {
     display: inline-flex;
     align-items: center;
     flex: 0 1 auto;
+
     .lv-search-filters__filter {
       font-size: 0.65rem !important;
       font-weight: 600;
       height: 20px;
       line-height: 20px;
-      width:fit-content;
+      width: fit-content;
+      white-space: nowrap;
       color: #fff;
-      background-color: rgba(52,73,94,0.94);
+      background-color: rgba(52, 73, 94, 0.94);
       padding: 0 5px;
       border-radius: 5px;
       user-select: none;
       margin-right: 3px;
     }
   }
+
   .lv-search-filters__search {
     flex: 1 0 auto;
     border: none;
     outline: none;
     background: none;
-    width: 80%;
+    width: 70%;
   }
 }
 
-.right_col{
+.right_col {
   min-height: 100vh;
   overflow-y: hidden;
 }
