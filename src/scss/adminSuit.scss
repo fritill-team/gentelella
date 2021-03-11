@@ -1,10 +1,8 @@
 .fixed-menu{
   &.lv-search-filter__button{
-    width: 20%;
     button{
-      border-top-right-radius: 25px;
-      border-bottom-right-radius: 25px;
-      width: 100%;
+      width: 50px;
+      height: 35px;
     }
   }
   .menu{
@@ -18,12 +16,14 @@
     }
   }
 }
-
+.search-form{
+  margin-bottom: 20px;
+}
 .lv-search-filters {
   display: inline-flex;
   align-items: center;
   width: 100%;
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
   height: calc(1.5em + .75rem + 2px);
   padding: .375rem 0 .375rem .75rem;
   font-size: 1rem;
@@ -33,6 +33,7 @@
   border: 1px solid #ced4da;
   border-radius: 25px;
   background-color: #fff;
+  margin-right: 20px;
   &:focus-within{
     outline: rgba(52,73,94,0.94);
   }
@@ -68,5 +69,21 @@
   overflow-y: hidden;
 }
 
+.btn-outline-info{
+  width: 35px;
+  height: 35px;
+}
 
-
+.table-btn--actions{
+  display: flex;
+  align-items: center;
+  //border: none !important;
+    .fixed-menu{
+      button{
+        outline: none;
+        &:focus{
+          box-shadow: none !important;
+        }
+      }
+    }
+}

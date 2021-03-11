@@ -1,13 +1,13 @@
-.fixed-menu.lv-search-filter__button {
-  width: 20%; }
-  .fixed-menu.lv-search-filter__button button {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 100%; }
+.fixed-menu.lv-search-filter__button button {
+  width: 50px;
+  height: 35px; }
 .fixed-menu .menu {
   display: none; }
 .fixed-menu.open .menu.open {
   display: block; }
+
+.search-form {
+  margin-bottom: 20px; }
 
 .lv-search-filters {
   display: -webkit-inline-box;
@@ -17,7 +17,6 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  margin-bottom: 20px;
   height: calc(1.5em + .75rem + 2px);
   padding: .375rem 0 .375rem .75rem;
   font-size: 1rem;
@@ -26,7 +25,8 @@
   color: #495057;
   border: 1px solid #ced4da;
   border-radius: 25px;
-  background-color: #fff; }
+  background-color: #fff;
+  margin-right: 20px; }
   .lv-search-filters:focus-within {
     outline: rgba(52, 73, 94, 0.94); }
   .lv-search-filters .lv-search-filters__filters {
@@ -68,6 +68,23 @@
 .right_col {
   min-height: 100vh;
   overflow-y: hidden; }
+
+.btn-outline-info {
+  width: 35px;
+  height: 35px; }
+
+.table-btn--actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .table-btn--actions .fixed-menu button {
+    outline: none; }
+    .table-btn--actions .fixed-menu button:focus {
+      -webkit-box-shadow: none !important;
+              box-shadow: none !important; }
 
 @charset "UTF-8";
 @font-face {
@@ -4921,16 +4938,16 @@ ul.notifications {
   border: 1px solid #e5e5e5; }
 
 /** /Dropzone.js **/
-.fixed-menu.lv-search-filter__button {
-  width: 20%; }
-  .fixed-menu.lv-search-filter__button button {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 100%; }
+.fixed-menu.lv-search-filter__button button {
+  width: 50px;
+  height: 35px; }
 .fixed-menu .menu {
   display: none; }
 .fixed-menu.open .menu.open {
   display: block; }
+
+.search-form {
+  margin-bottom: 20px; }
 
 .lv-search-filters {
   display: -webkit-inline-box;
@@ -4940,7 +4957,6 @@ ul.notifications {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  margin-bottom: 20px;
   height: calc(1.5em + .75rem + 2px);
   padding: .375rem 0 .375rem .75rem;
   font-size: 1rem;
@@ -4949,7 +4965,8 @@ ul.notifications {
   color: #495057;
   border: 1px solid #ced4da;
   border-radius: 25px;
-  background-color: #fff; }
+  background-color: #fff;
+  margin-right: 20px; }
   .lv-search-filters:focus-within {
     outline: rgba(52, 73, 94, 0.94); }
   .lv-search-filters .lv-search-filters__filters {
@@ -4991,6 +5008,23 @@ ul.notifications {
 .right_col {
   min-height: 100vh;
   overflow-y: hidden; }
+
+.btn-outline-info {
+  width: 35px;
+  height: 35px; }
+
+.table-btn--actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .table-btn--actions .fixed-menu button {
+    outline: none; }
+    .table-btn--actions .fixed-menu button:focus {
+      -webkit-box-shadow: none !important;
+              box-shadow: none !important; }
 
 .daterangepicker .ranges li {
   color: #73879C; }

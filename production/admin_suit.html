@@ -301,30 +301,17 @@
                         <i class="fa fa-plus"></i> Add New
                     </button>
                 </div>
-                <form action="">
+                <form class="search-form d-flex justify-content-between" action="">
                     <div class="lv-search-filters">
                         <input type="text"
                                placeholder="Search..."
                                :value="filters['q']"
                                @change="$emit('update:modelValue', $event.target.value)"
                                class='lv-search-filters__search'/>
-                        <div class="fixed-menu dropdown lv-search-filter__button">
-                            <button type="button" class="btn m-0 btn-info dropdown-toggle ">
-                                Filters
-                            </button>
-                            <div class="dropdown-menu menu">
-                                <div class="dropdown-item">Action</div>
-                                <div class="dropdown-item">Another action</div>
-                                <div class="dropdown-item">Something else here</div>
-                                <!--                  <a class="dropdown-item" href="#">Separated link</a>-->
-                            </div>
-                        </div>
                     </div>
-                </form>
-                <div class="d-flex justify-content-between align-items-center ">
-                    <div class="fixed-menu dropdown">
-                        <button type="button" class="btn btn-info dropdown-toggle">
-                            Actions
+                    <div class="fixed-menu dropdown lv-search-filter__button">
+                        <button type="button" class="btn mb-0 dropdown-toggle pl-2 btn-info btn-sm menu-toggle">
+                            <i class="fa fa-filter"></i>
                         </button>
                         <div class="dropdown-menu menu">
                             <div class="dropdown-item">Action</div>
@@ -333,6 +320,17 @@
                             <!--                  <a class="dropdown-item" href="#">Separated link</a>-->
                         </div>
                     </div>
+                    <div class="d-flex">
+                        <button type="button" class="btn mb-0 btn-outline-info btn-sm">
+                            <i class="fa fa-th"></i>
+                        </button>
+                        <button type="button" class="btn mb-0 mr-0 btn-outline-info btn-sm">
+                            <i class="fa fa-list"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-between align-items-center ">
+
                     <div class="d-flex align-items-center">
                         <a href="javascript:void(0)" class="btn btn-link disabled d-inline">{{ itemsText }}</a>
                         <a href="javascript:void(0)"
@@ -359,14 +357,7 @@
                                     v-text="option"/>
                         </select>
                     </div>
-                    <div class="d-flex">
-                        <button type="button" class="btn btn-outline-info btn-sm">
-                            <i class="fa fa-th"></i>
-                        </button>
-                        <button type="button" class="btn btn-outline-info btn-sm">
-                            <i class="fa fa-list"></i>
-                        </button>
-                    </div>
+
                 </div>
 
 
@@ -374,7 +365,18 @@
                     <table class="table table-striped jambo_table bulk_action">
                         <thead>
                         <tr class="headings">
-                            <th>
+                            <th class="table-btn--actions">
+                                <div class="fixed-menu dropdown">
+                                    <button type="button" class="btn py-0 mb-0 text-white m-0 text menu-toggle ">
+                                        <i class="fa fa-ellipsis-v " ></i>
+                                    </button>
+                                    <div class="dropdown-menu menu">
+                                        <div class="dropdown-item">Action</div>
+                                        <div class="dropdown-item">Another action</div>
+                                        <div class="dropdown-item">Something else here</div>
+                                        <!--                  <a class="dropdown-item" href="#">Separated link</a>-->
+                                    </div>
+                                </div>
                                 <input type="checkbox" id="check-all" class="flat">
                             </th>
                             <th class="column-title">Invoice</th>
@@ -394,7 +396,8 @@
 
                         <tbody>
                         <tr class="even pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000040</td>
@@ -407,7 +410,8 @@
                             </td>
                         </tr>
                         <tr class="odd pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000039</td>
@@ -421,7 +425,8 @@
                             </td>
                         </tr>
                         <tr class="even pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000038</td>
@@ -435,7 +440,8 @@
                             </td>
                         </tr>
                         <tr class="odd pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000037</td>
@@ -448,7 +454,8 @@
                             </td>
                         </tr>
                         <tr class="even pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000040</td>
@@ -461,7 +468,8 @@
                             </td>
                         </tr>
                         <tr class="odd pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000039</td>
@@ -475,7 +483,8 @@
                             </td>
                         </tr>
                         <tr class="even pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000038</td>
@@ -488,7 +497,8 @@
                             </td>
                         </tr>
                         <tr class="odd pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000037</td>
@@ -502,7 +512,8 @@
                         </tr>
 
                         <tr class="even pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000040</td>
@@ -515,7 +526,8 @@
                             </td>
                         </tr>
                         <tr class="odd pointer">
-                            <td class="a-center ">
+
+                            <td class="a-center d-flex justify-content-center">
                                 <input type="checkbox" class="flat" name="table_records">
                             </td>
                             <td class=" ">121000039</td>
@@ -535,15 +547,6 @@
         <div class="clearfix"></div>
     </div>
     <br/>
-
-    <div class="row">
-
-
-    </div>
-
-
-    <div class="row">
-    </div>
 </div>
 <!-- /page content -->
 

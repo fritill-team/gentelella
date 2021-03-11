@@ -21,6 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="500c2d10-dec4-43aa-8135-818f10cdbc71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/custom.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/admin_suit.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/admin_suit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/adminSuit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/adminSuit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/adminSuit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/adminSuit.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +71,9 @@
       <updated>1615186721203</updated>
       <workItem from="1615186722384" duration="21498000" />
       <workItem from="1615274063969" duration="10000" />
+      <workItem from="1615355065544" duration="2779000" />
+      <workItem from="1615373850234" duration="7908000" />
+      <workItem from="1615446629665" duration="445000" />
     </task>
     <servers />
   </component>
