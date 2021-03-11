@@ -56,8 +56,8 @@ $(document)
     })
     .on("click", "body", function(e) {
         if ($('.open').has(e.target).length === 0) {
-            $('.fixed-menu').removeClass('open');
-            $('.menu').removeClass('open');
+            $('.fixed-menu ').removeClass('open');
+            $('.menu ').removeClass('open');
         }
     })
 
