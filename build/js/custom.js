@@ -69,6 +69,10 @@ $(document)
   //   $(this).children('ul').toggle();
   //   return false;
   // })
+  .on('click', '.toggle-children', function () {
+    var ref = $(this).data('ref')
+    $(`.tree-item[data-parent=${ref}]`).toggleClass('hidden')
+  })
   .on("click", ".tree li div > a", function (e) {
     var link = $(this);
       e.preventDefault();

@@ -140,6 +140,9 @@
 .tree-wrapper_collapsible {
   width: 100%; }
 
+.hidden {
+  display: none !important; }
+
 @charset "UTF-8";
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -5143,6 +5146,9 @@ ul.notifications {
 
 .tree-wrapper_collapsible {
   width: 100%; }
+
+.hidden {
+  display: none !important; }
 
 .daterangepicker .ranges li {
   color: #73879C; }
