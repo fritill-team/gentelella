@@ -60,8 +60,20 @@ $(document)
       $(".fixed-menu__menu").removeClass("show");
     }
   })
-  .on("click", ".list-group .menu-tree .list-group-item .title #test", function () {
-    $(".menu-tree .list-group-item .menu").addClass("active");
+  // .each(".list-group .menu-tree .list-group-item .title", function () {
+  //   $(this).on("click", function(){
+  //       $(".list-group .menu-tree").addClass("active");
+  //   })
+  // })
+  // .on("click", "li.expandable", function() {
+  //   $(this).children('ul').toggle();
+  //   return false;
+  // })
+  .on("click", ".tree li div > a", function (e) {
+    var link = $(this);
+      e.preventDefault();
+      link.next().toggle("slow");
+      link.toggleClass("active");
   });
 
 /**

@@ -131,33 +131,57 @@
 //   }
 // }
 
-/*
-.list-group {
-  .list-group-item {
-    &.title {
+.list-group{
+  .list-group-item{
+    &.title{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      cursor: pointer;
     }
-  }
-
-  .list-group-item {
-    &.menu {
+  } 
+  .list-group-item{
+    &.menu{
       display: block;
     }
-
-    &.active {
+    &.active{
       display: block;
     }
   }
+  &.menu-tree{
+    position: relative;
+    .lv-search-filter__button{
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      button{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
 
-  &.menu-tree {
-    .fixed-menu {
-      &.open {
-        .menu {
+      }
+      &.open{
+        .menu{
           display: flex;
         }
       }
     }
+  } 
+  &.nested{
+    border: none !important;
   }
-}*/
+  &.active{
+    display: block;
+  }
+}
+
+.tree{
+  li{
+    width: 100%;
+  }
+}
+.tree-wrapper_collapsible{
+  width: 100%;
+
+}
