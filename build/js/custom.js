@@ -71,14 +71,14 @@ $(document)
   // })
   .on('click', '.toggle-children', function () {
     var ref = $(this).data('ref')
-    $(`.tree-item[data-parent=${ref}]`).toggleClass('hidden')
+    $(`.tree-item[data-parent=${ref}]`).toggleClass('tree-item--hidden')
   })
-  .on("click", ".tree li div > a", function (e) {
-    var link = $(this);
-      e.preventDefault();
-      link.next().toggle("slow");
-      link.toggleClass("active");
-  });
+  // .on("click", ".tree li div > a", function (e) {
+  //   var link = $(this);
+  //     e.preventDefault();
+  //     link.next().toggle("slow");
+  //     link.toggleClass("active");
+  // });
 
 /**
  * To change this license header, choose License Headers in Project Properties.

@@ -50,10 +50,23 @@
 }
 
 .fixed-menu {
-
+  button{
+    &:focus{
+      box-shadow: none;
+    }
+  }
   .fixed-menu__menu .dropdown-item:active {
     color: #212529;
     background-color: transparent;
+  }
+  .dropdown-menu{
+    &.right{
+      &.show{
+        display: flex;
+        right: 0 !important;
+        left: auto !important;
+      }
+    }
   }
 }
 
@@ -185,9 +198,40 @@
 }
 
 .tree {
-  li {
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  .tree-item{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    i{
+      margin: 0 10px;
+      cursor: pointer;
+      &.move{
+        cursor: move;
+        margin-left: 0;
+      }
+      // &:last-of-type{
+      //   cursor: pointer;
+      // }
+    }
+    input[type='checkbox']{
+      margin-right: 10px;
+    }
+    &.indent{
+      padding-left: 15px;
+    }
+    &.double-indent{
+      padding-left: 30px;
+    }
+    &.triple-indent{
+      padding-left: 60px;
+    }
+    &.tree-item--hidden{
+      display: none;
+    }
   }
+  
 }
 
 .tree-wrapper_collapsible {
