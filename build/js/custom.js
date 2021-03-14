@@ -50,14 +50,14 @@
 // });
 
 $(document)
-  .on("click", ".fixed-menu button.menu-toggle", function (event) {
-    $(this).parent().toggleClass("open");
-    $(".menu").toggleClass("open");
+  .on("click", ".fixed-menu .dropdown-toggle", function (event) {
+    $(this).parent().toggleClass("show");
+    $(this).parent().find(".fixed-menu__menu").toggleClass("show");
   })
   .on("click", "body", function (e) {
-    if ($(".open").has(e.target).length === 0) {
-      $(".fixed-menu ").removeClass("open");
-      $(".menu ").removeClass("open");
+    if ($(".show").has(e.target).length === 0) {
+      $(".fixed-menu").removeClass("show");
+      $(".fixed-menu__menu").removeClass("show");
     }
   })
   .on("click", ".list-group .menu-tree .list-group-item .title #test", function () {
@@ -324,8 +324,6 @@ if (typeof NProgress != 'undefined') {
     });
 }
 
-
-console.log('hello')
 
 //hover and retain popover when on popover content
 var originalLeave = $.fn.popover.Constructor.prototype.leave;

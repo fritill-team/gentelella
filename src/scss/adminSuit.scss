@@ -1,37 +1,10 @@
-.fixed-menu{
-  &.lv-search-filter__button{
-    button{
-      width: 50px;
-      height: 35px;
-    }
-  }
-
-  .menu {
-    display: none;
-    width: 100%;
-    &.right{
-      right: 0;
-      left: auto;
-    }
-  }
-
-
-  &.open {
-    .menu {
-      display: block;
-      right: 0;
-      left: auto;
-    }
-  }
-}
-.search-form{
-  margin-bottom: 20px;
-}
 .lv-search-filters {
+  margin-left: auto;
   display: inline-flex;
+  flex-flow: row wrap;
   align-items: center;
-  width: 100%;
-  //margin-bottom: 20px;
+  max-width: 600px;
+  min-width: 500px;
   height: calc(1.5em + .75rem + 2px);
   padding: .375rem 0 .375rem .75rem;
   font-size: 1rem;
@@ -41,9 +14,9 @@
   border: 1px solid #ced4da;
   border-radius: 25px;
   background-color: #fff;
-  margin-right: 20px;
-  &:focus-within{
-    outline: rgba(52,73,94,0.94);
+
+  &:focus-within {
+    outline: rgba(52, 73, 94, 0.94);
   }
 
   .lv-search-filters__filters {
@@ -72,40 +45,51 @@
     border: none;
     outline: none;
     background: none;
-    width: 70%;
+    //width: 70%;
   }
 }
+
+.fixed-menu {
+
+  .fixed-menu__menu .dropdown-item:active {
+    color: #212529;
+    background-color: transparent;
+  }
+}
+
+
+/*
 
 .right_col {
   min-height: 100vh;
   overflow-y: hidden;
 }
+*/
 
-.btn-outline-info{
-  width: 35px;
-  height: 35px;
-}
-
-.table-btn--actions{
+/*
+.table-btn--actions {
   display: flex;
   align-items: center;
   //border: none !important;
-    .fixed-menu{
-      &.open {
-        .menu {
-          display: block;
-          right: auto;
-          left: 0;
-        }
-      }
-      button{
-        outline: none;
-        &:focus{
-          box-shadow: none !important;
-        }
+  .fixed-menu {
+    &.open {
+      .menu {
+        display: block;
+        right: auto;
+        left: 0;
       }
     }
+
+    button {
+      outline: none;
+
+      &:focus {
+        box-shadow: none !important;
+      }
+    }
+  }
 }
+*/
 
 // menu tree
 
@@ -147,29 +131,33 @@
 //   }
 // }
 
-.list-group{
-  .list-group-item{
-    &.title{
+/*
+.list-group {
+  .list-group-item {
+    &.title {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-  } 
-  .list-group-item{
-    &.menu{
+  }
+
+  .list-group-item {
+    &.menu {
       display: block;
     }
-    &.active{
+
+    &.active {
       display: block;
     }
   }
-  &.menu-tree{
-    .fixed-menu{
-      &.open{
-        .menu{
+
+  &.menu-tree {
+    .fixed-menu {
+      &.open {
+        .menu {
           display: flex;
         }
       }
     }
-  } 
-}
+  }
+}*/

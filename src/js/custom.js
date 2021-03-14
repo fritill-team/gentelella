@@ -257,6 +257,3 @@ if (typeof NProgress != 'undefined') {
         NProgress.done();
     });
 }
-
-
-console.log('hello')
