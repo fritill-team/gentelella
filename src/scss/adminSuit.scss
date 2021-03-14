@@ -153,6 +153,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      cursor: pointer;
     }
   } 
   .list-group-item{
@@ -164,7 +165,18 @@
     }
   }
   &.menu-tree{
-    .fixed-menu{
+    position: relative;
+    .lv-search-filter__button{
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      button{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+
+      }
       &.open{
         .menu{
           display: flex;
@@ -172,4 +184,20 @@
       }
     }
   } 
+  &.nested{
+    border: none !important;
+  }
+  &.active{
+    display: block;
+  }
+}
+
+.tree{
+  li{
+    width: 100%;
+  }
+}
+.tree-wrapper_collapsible{
+  width: 100%;
+  
 }
