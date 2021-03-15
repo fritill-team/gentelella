@@ -243,12 +243,18 @@
   display: none !important
 }
 
-.headings{
-  th{
-    &:first-of-type{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+.table-responsive{
+  .table{
+    thead{
+      .headings{
+        th{
+          &:first-of-type{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+      }
     }
   }
 }
