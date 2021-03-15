@@ -242,3 +242,13 @@
 .hidden {
   display: none !important
 }
+
+.headings{
+  th{
+    &:first-of-type{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
