@@ -185,17 +185,6 @@
 .hidden {
   display: none !important; }
 
-.table-responsive .table thead .headings th:first-of-type {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
 @charset "UTF-8";
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -5244,17 +5233,6 @@ ul.notifications {
 
 .hidden {
   display: none !important; }
-
-.table-responsive .table thead .headings th:first-of-type {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
 
 .daterangepicker .ranges li {
   color: #73879C; }
